@@ -205,6 +205,10 @@ section {
     margin-top: 20px;
 }
 
+.navbar .logo img{
+    height: 70px;
+}
+
 .navbar ul {
     display: flex;
     align-items: center;
