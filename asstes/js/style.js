@@ -15,6 +15,17 @@ const navbarToggleBtn = document.getElementById('navbarToggleBtn');
   });
 
 
+  function setActiveLink(link) {
+    // Remove "active" class from all links
+    var links = document.querySelectorAll('.nav_link');
+    links.forEach(function (item) {
+      item.classList.remove('active');
+    });
+
+    // Add "active" class to the clicked link
+    link.classList.add('active');
+  }
+
 
 
 
